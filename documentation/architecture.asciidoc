@@ -12,6 +12,7 @@ image::images/enterprise-architecture.svg["devonfw enterprise architecture bluep
 Please click on the architecture image to open it as SVG and click to open the according documentation guide.
 
 In devonfw we propose the following general best practices:
+
 * Every unit is deployed independently as container
 * All communications are E2E encrypted (via https://en.wikipedia.org/wiki/Transport_Layer_Security[TLS])
 * Users technically connect via HTTPS (web, mobile, desktop)
