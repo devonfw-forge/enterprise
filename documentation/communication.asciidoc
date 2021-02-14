@@ -44,7 +44,9 @@ One of the most common choices for such a messaging system is https://kafka.apac
 
 == Contracts
 
-There are two approaches to contract communications:
+A communication contract is an structured document that defines the expected input and output of a service.
+
+There are two approaches to using contracts for communications:
 
 - *Contract first*: There is a design document that defines the formal contract of the communication and the code artefacts are derived with some tooling.
 - *Code first*: Code is written directly and documentation is generated from there.
