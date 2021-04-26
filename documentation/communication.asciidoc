@@ -42,6 +42,22 @@ However, when properly applied this communication style can make your architectu
 
 One of the most common choices for such a messaging system is https://kafka.apache.org[kafka].
 
+== Contracts
+
+A communication contract is an structured document that defines the expected input and output of a service.
+
+There are two approaches to using contracts for communications:
+
+- *Contract first*: There is a design document that defines the formal contract of the communication and the code artefacts are derived with some tooling.
+- *Code first*: Code is written directly and documentation is generated from there.
+
+For enterprise development, contract first approach is preferred because improves communication between involved development teams. This contracts can serve to develop tests, mocks and working code automatically and to enforce validation on both client and server sides of the services.
+
+Contracts can be used both for synchronous or asynchronous communications, for example https://www.openapis.org/[Open Api] has become the standard for REST contracts and https://www.asyncapi.com/[Async Api] is growing in adoption for the asynchronous needs.
+
+
+
+
 == Links
 
 * https://solace.com/blog/experience-awesomeness-event-driven-microservices/[REST vs Messaging for Microservices]
